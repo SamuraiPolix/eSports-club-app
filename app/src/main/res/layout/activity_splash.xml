@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1d"
+    android:orientation="vertical"
+    tools:context=".Splash">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/first_line"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/white_line" />
+
+        <View
+            android:id="@+id/second_line"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/first_line"
+            android:background="@drawable/red_line" />
+
+        <View
+            android:id="@+id/third_line"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/second_line"
+            android:background="@drawable/white_line" />
+
+        <View
+            android:id="@+id/fourth_line"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/third_line"
+            android:background="@drawable/red_line" />
+
+        <View
+            android:id="@+id/fifth_line"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/fourth_line"
+            android:background="@drawable/green_line" />
+
+        <View
+            android:id="@+id/sixth_line"
+            android:layout_width="20dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/fifth_line"
+            android:background="@drawable/white_line" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fx_logo"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/fx_logo" />
+
+        <TextView
+            android:id="@+id/txt_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/baloo"
+            android:text="@string/app_name"
+            android:textColor="#fff"
+            android:layout_below="@id/fx_logo"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/txt_slogan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/app_slogan"
+                android:textColor="#8A8585"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
