@@ -2,8 +2,7 @@
 
 Practicing animations on the Splash and Login screens.
 
-https://github.com/SamuraiPolix/FulminatiX_App/assets/52662032/94475c05-ff53-4ae7-b5dc-e0a4155406a0
-
+https://github.com/SamuraiPolix/eSports_club_app/assets/52662032/68103118-43ff-4ddd-aad3-0d119e8f7302
 
 Future plans:
 
